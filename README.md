@@ -1,32 +1,42 @@
-# Noctis Player
+# Lune / Noctis Player
 
-A GitHub Pages-ready React music player inspired by the LUNE/Noctis cinematic audio design.
+A cinematic web music player built with **React** and designed around a dark, immersive listening experience.
 
-## Install and run
+## ✨ Highlights
+
+- Cinematic music-player interface
+- Responsive React UI
+- Vite development workflow
+- GitHub Pages deployment support
+- Optional YouTube search integration
+
+## 🚀 Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then open the local URL Vite prints, usually `http://localhost:5173`.
+Build:
 
-## Deploy to GitHub Pages
+```bash
+npm run build
+```
 
-This repo includes a GitHub Actions workflow that builds and deploys the site whenever `main` is pushed.
-
-In GitHub, set **Settings -> Pages -> Source** to **GitHub Actions**.
-
-For YouTube search in production, add this repository secret:
+For YouTube search in production, configure the repository secret:
 
 ```text
 VITE_YOUTUBE_API_KEY
 ```
 
-Manual deploy is also available:
+## 🚀 Deployment
 
-```bash
-npm run deploy
-```
+The project includes GitHub Actions support for GitHub Pages. Push to `main` to trigger the configured deployment workflow.
 
-Or build with `npm run build` and publish the `dist` folder through GitHub Pages. The Vite config uses `base: './'`, matching the old Soul Test setup.
+## Status
+
+🧪 Experimental music project.
+
+## Author
+
+**Adiyan** — [@adiyandev](https://github.com/adiyandev)
